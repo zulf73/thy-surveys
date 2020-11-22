@@ -1,0 +1,14 @@
+import { Meteor } from 'meteor/meteor';
+import { SurveyCollection } from '../imports/api/survey.collection';
+
+Meteor.startup(() => {
+    const Surveys = new SurveyCollection('surveys0');
+
+    if (Meteor.isServer) {
+	Meteor.publish('surveys0', function () {
+	    return Surveys.find().cursor;
+	});
+    } else {
+	Meteor.subscribe('surveys0');
+    }
+});

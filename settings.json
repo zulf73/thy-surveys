@@ -1,0 +1,7 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb+srv://unique:unique@cluster0.3cmqe.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+1: What is your idea of perfect happiness?
+2: What is your greatest fear?
+3: Which historical figure do you most identify with?
+4: Which living person do you most admire?
+4: Which living person do you most admire?
+5: What is the trait you most deplore about yourself?
+6: What is the trait you most deplore in others?
+7: What is your greatest extravagance?
+8: What is your favorite journey?
+9: What do you consider the most over-rated virtue?
+10: On what occasions do you lie?
+11: What do you dislike most about your appearance?
+12: Which living person do you most despise?
+13: Which words or phrases do you overuse?
+14: What or who is the greatest love of your life?
+
+<p>15: When and where were you happiest?
+<p>16: Which talent would you like to have the most?
+<p>17: What is your current state of mind?
+<p>18: If you could change one thing about yourself, what would it be?
+19: f you could change one thing about your family, what would it be?
+20: What do you consider your greatest achievement?
+21: If you were to die and come back as a person or thing, what do you think it would be?
+22: What is your most treasured possession?
+23: What do you regard as the lowest depth of misery?
+24: Where would you like to live?
+25: What is your favorite occupation?
+26: What is your most marked characteristic?
+What is the quality you most like in a man?
+What is the quality you most like in a woman?
+What do you most value in your friends?
+Who are your favorite writers?
+Who is your favorite hero of fiction?
+Who are your heroes in real life?
+What are your favorite names?
+What is it that you most dislike?
+How would you like to die?
+What is your favorite motto?
+
