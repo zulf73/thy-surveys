@@ -7,19 +7,13 @@
 
   {{> uploadForm}}
 
-  {{> uploadedFiles}}
-
+  {{> colList}}
+  
 </body>
 
 
 <template name="uploadForm">
-  {{#with currentUpload}}
-    Uploading <b>{{file.name}}</b>: 
-    <span id="progress">{{progress.get}}%</span>
-  {{else}}
     <input id="fileInput" type="file" />
-    <p><small>Upload file in <code>jpeg</code> or <code>png</code> format, with size less or equal to 10MB</small></p>
-  {{/with}}
 </template>
 
 <template name="uploadedFiles">
@@ -34,4 +28,13 @@
   {{else}}
     <div>No files uploaded, yet</div>
   {{/if}}
+
 </template>
+
+<template name="colList">
+  <ul>
+    {{#each s in Surveys}}
+    <li>{{> s}}</li>
+    {{/ each}}
+  </ul>
+</template>  
