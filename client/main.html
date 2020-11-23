@@ -6,14 +6,15 @@
   <h1>Simplest upload form!</h1>
 
   {{> uploadForm}}
-
-  {{> colList}}
   
 </body>
 
 
 <template name="uploadForm">
-    <input id="fileInput" type="file" />
+  <form enctype="multipart/form-data" action="/upload" method="post">
+    <input type="file" name="fileUpload" />
+    <input type="submit" value="submit" />
+  </form>  
 </template>
 
 <template name="uploadedFiles">
